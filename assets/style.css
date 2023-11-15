@@ -1,0 +1,213 @@
+.nav-list {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav {
+    display: none;
+}
+
+header p {
+    display: inline;
+    position: relative;
+}
+
+.banner, .about-us {
+    display: flex;
+    flex-direction: column;
+}
+.banner img {
+    height: 300px;
+    width: 300px;
+}
+.about-us {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+
+}
+.about-us img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.offers {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.offer-card {
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-card {
+    width: 100%;
+}
+
+.offer-card img{
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 10px;
+}
+.cards_p{
+    color: brown;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards_card{
+    width: 140px;
+    height: 190px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.495);
+}
+.cards_card img{
+    height: 110px;
+    width: 110px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.cards_card_texts p{
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.section-container-texts b{
+    color: brown;
+}
+.section-container button{
+    padding: 15px;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 15px;
+    color: white;
+}
+.footer h3{
+    color: brown;
+}
+.footer_p{
+    color: grey;
+    font-size: 15px;
+}
+.footer-menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+}
+.footer-copyright{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.footer-copyright p{
+    margin-top: 30px;
+}
+.banner-texts h1 {
+    color: brown;
+}
+.banner-texts button {
+    background-color: brown;
+    width: 120px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 1px solid brown;
+    padding: 8px;
+}
+.about-us-texts {
+    text-align: center;
+
+}
+.about-us-texts p {
+    color: brown;
+    
+}
+.about-us-texts button {
+    background-color: brown;
+    width: 120px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 1px solid brown;
+    padding: 8px;
+}
+
+@media only screen and (max-width: 500px){
+    .tablet {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .phone {
+        display: none;
+    }
+
+
+    nav {
+        display: inline;
+        position: absolute;
+        right: 0px;
+    }
+
+    .banner, .about-us, .offers {
+        flex-direction: row;
+    }
+
+    .offer-card {
+        width: 33%;
+    }
+}
